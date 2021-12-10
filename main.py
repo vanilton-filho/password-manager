@@ -40,6 +40,7 @@ def save():
                 file.write(f"{website} | {email} | {password}\n")
 
             entry_website.delete(0, END)
+            entry_email_username.delete(0, END)
             entry_password.delete(0, END)
 
 
